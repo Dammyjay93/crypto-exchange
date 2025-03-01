@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1a1a1a;
+  --foreground: #ffffff;
+  --card: #333333;
+  --card-foreground: #ffffff;
+  --primary: #444444;
+  --primary-foreground: #ffffff;
+  --secondary: #2a2a2a;
+  --secondary-foreground: #ffffff;
+  --muted: #666666;
+  --muted-foreground: #999999;
+  --accent: #444444;
+  --accent-foreground: #ffffff;
+  --destructive: #ff4d4f;
+  --destructive-foreground: #ffffff;
+  --border: #444444;
+  --input: #444444;
+  --ring: #444444;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+

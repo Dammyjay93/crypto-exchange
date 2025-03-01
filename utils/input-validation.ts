@@ -24,5 +24,6 @@ export const isWithinBalance = (amount: string, maxBalance: number): boolean => 
 
 export const ERROR_MESSAGES = {
   NUMBERS_ONLY: "Please enter numbers only",
-  INSUFFICIENT_ETH: "Insufficient ETH balance"
+  INSUFFICIENT_ETH: "Insufficient ETH balance",
+  INSUFFICIENT_USDT: "Insufficient USDT balance"
 } as const 
